@@ -20,7 +20,7 @@ impl Splitmix64 {
         let mut z = self.state;
         z = (z ^ (z >> 30)).wrapping_mul(0xBF58476D1CE4E5B9);
         z = (z ^ (z >> 27)).wrapping_mul(0x94D049BB133111EB);
-        return z ^ (z >> 31);
+        z ^ (z >> 31)
     }
 }
 
