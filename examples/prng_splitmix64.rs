@@ -1,4 +1,4 @@
-//! # 疑似乱数生成法`splitmix64`で乱数を生成する
+//! 疑似乱数生成法`splitmix64`で乱数を生成する
 //!
 //! ## Reference
 //! https://prng.di.unimi.it/splitmix64.c
